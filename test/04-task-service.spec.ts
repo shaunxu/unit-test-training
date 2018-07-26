@@ -1,4 +1,4 @@
-import { Task, ServiceResponse, TaskService } from "../src/05-task-service";
+import { Task, TaskService } from "../src/04-task-service";
 import { assert } from "chai";
 
 describe("task service", () => {
