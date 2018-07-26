@@ -14,7 +14,7 @@ const mocha = new Mocha({
 const files = fs.readdirSync(testDir);
 for (const file of files) {
     if (file.endsWith(".spec.ts")) {
-        const specName = file.replace(".spec.ts", "");
+        const specName = path.basename(file, path.extname(file));
         if (!specs || _.some(specs, x => x.toLowerCase() === specName.toLowerCase())) {
             mocha.addFile(`${testDir}/${file}`);
         }

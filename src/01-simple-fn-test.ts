@@ -1,4 +1,4 @@
-import { add } from "./#1-simple-fn";
+import { add } from "./01-simple-fn";
 
 const x = 3;
 const y = 5;

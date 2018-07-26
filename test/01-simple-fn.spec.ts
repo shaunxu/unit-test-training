@@ -1,4 +1,4 @@
-import { add } from "../src/#1-simple-fn";
+import { add } from "../src/01-simple-fn";
 import { AssertionError } from "assert";
 
 describe(`#1-simple-fn`, () => {
